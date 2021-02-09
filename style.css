@@ -17,6 +17,15 @@ body {
   color: white;
 }
 #navbar h3 {
+    width: 100%;
+    background-color: #be3144;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
 }
 ul {
   display: flex;
@@ -81,4 +90,23 @@ h3 {
   align-items: center;
   box-shadow: 0 0 10px #2222226c;
   border-radius: 5px;
+}
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
