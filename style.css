@@ -5,10 +5,14 @@ body {
 
 #navbar {
     width: 100%;
-    background-color: #93e22b;
+    background-color: #be3144;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
 }
 
 ul {
@@ -23,8 +27,20 @@ li {
 a {
     text-decoration: none;
     text-transform: uppercase;
+    color: white;
 }
 
 h3 {
     text-transform: uppercase;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
